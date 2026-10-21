@@ -21,7 +21,7 @@ minimize coste_medio: (sum{i in FILAS}sum{j in COLUMNAS}sum{i_prima in (i+1)..LA
 s.t. No_repeticiones {k in CAJAS}: sum{i in FILAS} sum{j in COLUMNAS} posicion_caja[k,i,j] = 1;
 
 /*Cada caja debe ubicarse por delante, respecto al punto de acceso, de aquellos que tienen menos prioridad que ella*/
-s.t. Respetar_prioridades{i in 1..(LADO-1), j in COLUMNAS}: sum{k in CAJAS} posicion_caja[k,i,j]*PRIORIDADES[k]<=sum{k in CAJAS} posicion_caja[k,i+1,j]*PRIORIDADES[k];
+s.t. Respetar_prioridades{i in 1..(LADO-1), j in COLUMNAS}: sum{k in CAJAS} posicion_caja[k,i+1,j]*PRIORIDADES[k] <= sum{k in CAJAS} posicion_caja[k,i,j]*PRIORIDADES[k];
 /*LADO - 1 para que no de error en la ultima fila*/
 
 /*Ahora tenemos la restriccion de donde la segunda fila especifica la prioridad de cada una de las n cajas, con n = l2. Esto es, el pallet se rellena

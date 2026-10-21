@@ -23,7 +23,18 @@ with open(archivo_salida, "w", encoding="utf-8") as f:
             f.write("param LADO := " + " ".join(Medidas[i]) + ";\n\n")
         else:
             f.write("param ALTURA := " + " ".join(Medidas[i]) + ";\n\n")
-        
+
+    cajas = len(Prioridades)
+    f.write("param NUM_CAJAS := " + str(cajas) + ";\n\n")
+
+    M = 0
+    for x in Prioridades:
+        if int(x) > M:
+            M = int(x) + 1
+    f.write("param M := " + str(M) + ";\n\n")
+
+
+    
 
     f.write("param PRIORIDADES := "  + "\n")
     k = 1
@@ -51,3 +62,5 @@ with open(archivo_salida, "w", encoding="utf-8") as f:
         else:
             f.write(str(k) + "\t\t" + str(i)  + "\n")
             k = k+1
+
+    f.write("\nend;\n")

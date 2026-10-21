@@ -27,4 +27,4 @@ with open(archivo_salida, "w", encoding="utf-8") as f:
             f.write(str(k) + "\t\t" + str(i)  + "\n")
             k = k+1
 
-    
+    f.write("\nend;\n")
