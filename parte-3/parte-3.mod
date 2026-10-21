@@ -20,6 +20,7 @@ param M2 := (LADO-1) * (M-1); # M2 es un valor suficientemente grande para garan
 /*Variables de decision*/
 var posicion_caja {k in CAJAS, i in FILAS, j in COLUMNAS, m in ALTURAS} binary;
 
+/*Variables auxiliares*/
 var coste_celda {i in FILAS, j in COLUMNAS, m in ALTURAS} >= 0;
 
 /*F. Obj*/
@@ -52,5 +53,5 @@ s.t. Cajas_sobre_vacio {i in FILAS, j in COLUMNAS, m in 1..(ALTURA-1)}:
 ;
 
 s.t. Coste_celda_def {i in 1..(LADO-1), j in COLUMNAS, m in ALTURAS}:
-    sum{i_prima in (i+1)..LADO} sum{k in CAJAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k] - M2*(1-sum{k in CAJAS} posicion_caja[k,i,j,m]) >= coste_celda[i,j,m]
+    sum{i_prima in (i+1)..LADO} sum{k in CAJAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k] - M2*(1-sum{k in CAJAS} posicion_caja[k,i,j,m]) <= coste_celda[i,j,m]
     ;

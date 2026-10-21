@@ -1,0 +1,1211 @@
+Problem:    parte
+Rows:       252
+Columns:    342 (294 integer, 294 binary)
+Non-zeros:  2584
+Status:     INTEGER OPTIMAL
+Objective:  coste_medio = 6 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 coste_medio                 6                             
+     2 No_repeticiones[1]
+                                   1             1             = 
+     3 No_repeticiones[2]
+                                   1             1             = 
+     4 No_repeticiones[3]
+                                   1             1             = 
+     5 No_repeticiones[4]
+                                   1             1             = 
+     6 No_repeticiones[5]
+                                   1             1             = 
+     7 No_repeticiones[6]
+                                   1             1             = 
+     8 Respetar_prioridades[1,1,1,1]
+                                   0                          12 
+     9 Respetar_prioridades[1,1,1,2]
+                                   0                          12 
+    10 Respetar_prioridades[1,1,1,3]
+                                   0                          12 
+    11 Respetar_prioridades[1,1,1,4]
+                                   0                          12 
+    12 Respetar_prioridades[1,1,1,5]
+                                   9                          12 
+    13 Respetar_prioridades[1,1,1,6]
+                                   3                          12 
+    14 Respetar_prioridades[1,1,2,1]
+                                   0                          12 
+    15 Respetar_prioridades[1,1,2,2]
+                                   0                          12 
+    16 Respetar_prioridades[1,1,2,3]
+                                   0                          12 
+    17 Respetar_prioridades[1,1,2,4]
+                                   0                          12 
+    18 Respetar_prioridades[1,1,2,5]
+                                  11                          12 
+    19 Respetar_prioridades[1,1,2,6]
+                                   4                          12 
+    20 Respetar_prioridades[1,2,1,1]
+                                   0                          12 
+    21 Respetar_prioridades[1,2,1,2]
+                                   0                          12 
+    22 Respetar_prioridades[1,2,1,3]
+                                   0                          12 
+    23 Respetar_prioridades[1,2,1,4]
+                                   0                          12 
+    24 Respetar_prioridades[1,2,1,5]
+                                   0                          12 
+    25 Respetar_prioridades[1,2,1,6]
+                                   8                          12 
+    26 Respetar_prioridades[1,2,2,1]
+                                   0                          12 
+    27 Respetar_prioridades[1,2,2,2]
+                                   0                          12 
+    28 Respetar_prioridades[1,2,2,3]
+                                   0                          12 
+    29 Respetar_prioridades[1,2,2,4]
+                                   0                          12 
+    30 Respetar_prioridades[1,2,2,5]
+                                   0                          12 
+    31 Respetar_prioridades[1,2,2,6]
+                                   4                          12 
+    32 Maximo_una_caja[1,1,1,1]
+                                   0                           1 
+    33 Maximo_una_caja[1,1,1,2]
+                                   0                           1 
+    34 Maximo_una_caja[1,1,1,3]
+                                   0                           1 
+    35 Maximo_una_caja[1,1,1,4]
+                                   0                           1 
+    36 Maximo_una_caja[1,1,1,5]
+                                   0                           1 
+    37 Maximo_una_caja[1,1,1,6]
+                                   0                           1 
+    38 Maximo_una_caja[1,1,2,1]
+                                   0                           1 
+    39 Maximo_una_caja[1,1,2,2]
+                                   0                           1 
+    40 Maximo_una_caja[1,1,2,3]
+                                   0                           1 
+    41 Maximo_una_caja[1,1,2,4]
+                                   0                           1 
+    42 Maximo_una_caja[1,1,2,5]
+                                   0                           1 
+    43 Maximo_una_caja[1,1,2,6]
+                                   0                           1 
+    44 Maximo_una_caja[1,2,1,1]
+                                   0                           1 
+    45 Maximo_una_caja[1,2,1,2]
+                                   0                           1 
+    46 Maximo_una_caja[1,2,1,3]
+                                   0                           1 
+    47 Maximo_una_caja[1,2,1,4]
+                                   0                           1 
+    48 Maximo_una_caja[1,2,1,5]
+                                   0                           1 
+    49 Maximo_una_caja[1,2,1,6]
+                                   0                           1 
+    50 Maximo_una_caja[1,2,2,1]
+                                   0                           1 
+    51 Maximo_una_caja[1,2,2,2]
+                                   0                           1 
+    52 Maximo_una_caja[1,2,2,3]
+                                   0                           1 
+    53 Maximo_una_caja[1,2,2,4]
+                                   0                           1 
+    54 Maximo_una_caja[1,2,2,5]
+                                   0                           1 
+    55 Maximo_una_caja[1,2,2,6]
+                                   0                           1 
+    56 Maximo_una_caja[2,1,1,1]
+                                   0                           1 
+    57 Maximo_una_caja[2,1,1,2]
+                                   0                           1 
+    58 Maximo_una_caja[2,1,1,3]
+                                   0                           1 
+    59 Maximo_una_caja[2,1,1,4]
+                                   0                           1 
+    60 Maximo_una_caja[2,1,1,5]
+                                   1                           1 
+    61 Maximo_una_caja[2,1,1,6]
+                                   1                           1 
+    62 Maximo_una_caja[2,1,2,1]
+                                   0                           1 
+    63 Maximo_una_caja[2,1,2,2]
+                                   0                           1 
+    64 Maximo_una_caja[2,1,2,3]
+                                   0                           1 
+    65 Maximo_una_caja[2,1,2,4]
+                                   0                           1 
+    66 Maximo_una_caja[2,1,2,5]
+                                   1                           1 
+    67 Maximo_una_caja[2,1,2,6]
+                                   1                           1 
+    68 Maximo_una_caja[2,2,1,1]
+                                   0                           1 
+    69 Maximo_una_caja[2,2,1,2]
+                                   0                           1 
+    70 Maximo_una_caja[2,2,1,3]
+                                   0                           1 
+    71 Maximo_una_caja[2,2,1,4]
+                                   0                           1 
+    72 Maximo_una_caja[2,2,1,5]
+                                   0                           1 
+    73 Maximo_una_caja[2,2,1,6]
+                                   1                           1 
+    74 Maximo_una_caja[2,2,2,1]
+                                   0                           1 
+    75 Maximo_una_caja[2,2,2,2]
+                                   0                           1 
+    76 Maximo_una_caja[2,2,2,3]
+                                   0                           1 
+    77 Maximo_una_caja[2,2,2,4]
+                                   0                           1 
+    78 Maximo_una_caja[2,2,2,5]
+                                   0                           1 
+    79 Maximo_una_caja[2,2,2,6]
+                                   1                           1 
+    80 Peso_maximo[1,1,1,1]
+                                   0                          -0 
+    81 Peso_maximo[1,1,1,2]
+                                   0                          -0 
+    82 Peso_maximo[1,1,1,3]
+                                   0                          -0 
+    83 Peso_maximo[1,1,1,4]
+                                   0                          -0 
+    84 Peso_maximo[1,1,1,5]
+                                   0                          -0 
+    85 Peso_maximo[1,1,1,6]
+                                   0                          -0 
+    86 Peso_maximo[1,1,2,1]
+                                   0                          -0 
+    87 Peso_maximo[1,1,2,2]
+                                   0                          -0 
+    88 Peso_maximo[1,1,2,3]
+                                   0                          -0 
+    89 Peso_maximo[1,1,2,4]
+                                   0                          -0 
+    90 Peso_maximo[1,1,2,5]
+                                   0                          -0 
+    91 Peso_maximo[1,1,2,6]
+                                   0                          -0 
+    92 Peso_maximo[1,2,1,1]
+                                   0                          -0 
+    93 Peso_maximo[1,2,1,2]
+                                   0                          -0 
+    94 Peso_maximo[1,2,1,3]
+                                   0                          -0 
+    95 Peso_maximo[1,2,1,4]
+                                   0                          -0 
+    96 Peso_maximo[1,2,1,5]
+                                   0                          -0 
+    97 Peso_maximo[1,2,1,6]
+                                   0                          -0 
+    98 Peso_maximo[1,2,2,1]
+                                   0                          -0 
+    99 Peso_maximo[1,2,2,2]
+                                   0                          -0 
+   100 Peso_maximo[1,2,2,3]
+                                   0                          -0 
+   101 Peso_maximo[1,2,2,4]
+                                   0                          -0 
+   102 Peso_maximo[1,2,2,5]
+                                   0                          -0 
+   103 Peso_maximo[1,2,2,6]
+                                   0                          -0 
+   104 Peso_maximo[2,1,1,1]
+                                   0                          -0 
+   105 Peso_maximo[2,1,1,2]
+                                   0                          -0 
+   106 Peso_maximo[2,1,1,3]
+                                   0                          -0 
+   107 Peso_maximo[2,1,1,4]
+                                   0                          -0 
+   108 Peso_maximo[2,1,1,5]
+                                  -5                          -0 
+   109 Peso_maximo[2,1,1,6]
+                                  -3                          -0 
+   110 Peso_maximo[2,1,2,1]
+                                   0                          -0 
+   111 Peso_maximo[2,1,2,2]
+                                   0                          -0 
+   112 Peso_maximo[2,1,2,3]
+                                   0                          -0 
+   113 Peso_maximo[2,1,2,4]
+                                   0                          -0 
+   114 Peso_maximo[2,1,2,5]
+                                  -2                          -0 
+   115 Peso_maximo[2,1,2,6]
+                                  -3                          -0 
+   116 Peso_maximo[2,2,1,1]
+                                   0                          -0 
+   117 Peso_maximo[2,2,1,2]
+                                   0                          -0 
+   118 Peso_maximo[2,2,1,3]
+                                   0                          -0 
+   119 Peso_maximo[2,2,1,4]
+                                   0                          -0 
+   120 Peso_maximo[2,2,1,5]
+                                   0                          -0 
+   121 Peso_maximo[2,2,1,6]
+                                  -3                          -0 
+   122 Peso_maximo[2,2,2,1]
+                                   0                          -0 
+   123 Peso_maximo[2,2,2,2]
+                                   0                          -0 
+   124 Peso_maximo[2,2,2,3]
+                                   0                          -0 
+   125 Peso_maximo[2,2,2,4]
+                                   0                          -0 
+   126 Peso_maximo[2,2,2,5]
+                                   0                          -0 
+   127 Peso_maximo[2,2,2,6]
+                                  -8                          -0 
+   128 Prioridad_infinito[1,1,1,1]
+                                   0                          -0 
+   129 Prioridad_infinito[1,1,1,2]
+                                   0                          -0 
+   130 Prioridad_infinito[1,1,1,3]
+                                   0                          -0 
+   131 Prioridad_infinito[1,1,1,4]
+                                   0                          -0 
+   132 Prioridad_infinito[1,1,1,5]
+                                  -1                          -0 
+   133 Prioridad_infinito[1,1,1,6]
+                                  -1                          -0 
+   134 Prioridad_infinito[1,1,2,1]
+                                   0                          -0 
+   135 Prioridad_infinito[1,1,2,2]
+                                   0                          -0 
+   136 Prioridad_infinito[1,1,2,3]
+                                   0                          -0 
+   137 Prioridad_infinito[1,1,2,4]
+                                   0                          -0 
+   138 Prioridad_infinito[1,1,2,5]
+                                  -1                          -0 
+   139 Prioridad_infinito[1,1,2,6]
+                                  -1                          -0 
+   140 Prioridad_infinito[1,2,1,1]
+                                   0                          -0 
+   141 Prioridad_infinito[1,2,1,2]
+                                   0                          -0 
+   142 Prioridad_infinito[1,2,1,3]
+                                   0                          -0 
+   143 Prioridad_infinito[1,2,1,4]
+                                   0                          -0 
+   144 Prioridad_infinito[1,2,1,5]
+                                   0                          -0 
+   145 Prioridad_infinito[1,2,1,6]
+                                  -1                          -0 
+   146 Prioridad_infinito[1,2,2,1]
+                                   0                          -0 
+   147 Prioridad_infinito[1,2,2,2]
+                                   0                          -0 
+   148 Prioridad_infinito[1,2,2,3]
+                                   0                          -0 
+   149 Prioridad_infinito[1,2,2,4]
+                                   0                          -0 
+   150 Prioridad_infinito[1,2,2,5]
+                                   0                          -0 
+   151 Prioridad_infinito[1,2,2,6]
+                                  -1                          -0 
+   152 Cajas_sobre_vacio[1,1,1,1]
+                                   0                          -0 
+   153 Cajas_sobre_vacio[1,1,1,2]
+                                   0                          -0 
+   154 Cajas_sobre_vacio[1,1,1,3]
+                                   0                          -0 
+   155 Cajas_sobre_vacio[1,1,1,4]
+                                   0                          -0 
+   156 Cajas_sobre_vacio[1,1,1,5]
+                                   0                          -0 
+   157 Cajas_sobre_vacio[1,1,1,6]
+                                   0                          -0 
+   158 Cajas_sobre_vacio[1,2,1,1]
+                                   0                          -0 
+   159 Cajas_sobre_vacio[1,2,1,2]
+                                   0                          -0 
+   160 Cajas_sobre_vacio[1,2,1,3]
+                                   0                          -0 
+   161 Cajas_sobre_vacio[1,2,1,4]
+                                   0                          -0 
+   162 Cajas_sobre_vacio[1,2,1,5]
+                                   0                          -0 
+   163 Cajas_sobre_vacio[1,2,1,6]
+                                   0                          -0 
+   164 Cajas_sobre_vacio[2,1,1,1]
+                                   0                          -0 
+   165 Cajas_sobre_vacio[2,1,1,2]
+                                   0                          -0 
+   166 Cajas_sobre_vacio[2,1,1,3]
+                                   0                          -0 
+   167 Cajas_sobre_vacio[2,1,1,4]
+                                   0                          -0 
+   168 Cajas_sobre_vacio[2,1,1,5]
+                                   0                          -0 
+   169 Cajas_sobre_vacio[2,1,1,6]
+                                   0                          -0 
+   170 Cajas_sobre_vacio[2,2,1,1]
+                                   0                          -0 
+   171 Cajas_sobre_vacio[2,2,1,2]
+                                   0                          -0 
+   172 Cajas_sobre_vacio[2,2,1,3]
+                                   0                          -0 
+   173 Cajas_sobre_vacio[2,2,1,4]
+                                   0                          -0 
+   174 Cajas_sobre_vacio[2,2,1,5]
+                                   0                          -0 
+   175 Cajas_sobre_vacio[2,2,1,6]
+                                   0                          -0 
+   176 Coste_celda_def[1,1,1,1]
+                                   0                          11 
+   177 Coste_celda_def[1,1,1,2]
+                                   0                          11 
+   178 Coste_celda_def[1,1,1,3]
+                                   0                          11 
+   179 Coste_celda_def[1,1,1,4]
+                                   0                          11 
+   180 Coste_celda_def[1,1,1,5]
+                                   9                          11 
+   181 Coste_celda_def[1,1,1,6]
+                                   3                          11 
+   182 Coste_celda_def[1,1,2,1]
+                                   0                          11 
+   183 Coste_celda_def[1,1,2,2]
+                                   0                          11 
+   184 Coste_celda_def[1,1,2,3]
+                                   0                          11 
+   185 Coste_celda_def[1,1,2,4]
+                                   0                          11 
+   186 Coste_celda_def[1,1,2,5]
+                                  11                          11 
+   187 Coste_celda_def[1,1,2,6]
+                                   4                          11 
+   188 Coste_celda_def[1,2,1,1]
+                                   0                          11 
+   189 Coste_celda_def[1,2,1,2]
+                                   0                          11 
+   190 Coste_celda_def[1,2,1,3]
+                                   0                          11 
+   191 Coste_celda_def[1,2,1,4]
+                                   0                          11 
+   192 Coste_celda_def[1,2,1,5]
+                                   0                          11 
+   193 Coste_celda_def[1,2,1,6]
+                                   8                          11 
+   194 Coste_celda_def[1,2,2,1]
+                                   0                          11 
+   195 Coste_celda_def[1,2,2,2]
+                                   0                          11 
+   196 Coste_celda_def[1,2,2,3]
+                                   0                          11 
+   197 Coste_celda_def[1,2,2,4]
+                                   0                          11 
+   198 Coste_celda_def[1,2,2,5]
+                                   0                          11 
+   199 Coste_celda_def[1,2,2,6]
+                                   4                          11 
+   200 Orden_pallets[1]
+                                   0            -0               
+   201 Orden_pallets[2]
+                                   0            -0               
+   202 Orden_pallets[3]
+                                   0            -0               
+   203 Orden_pallets[4]
+                                   1            -0               
+   204 Orden_pallets[5]
+                                   0            -0               
+   205 Pallet_existe_def[1,1,1,1]
+                                   0                          -0 
+   206 Pallet_existe_def[1,1,1,2]
+                                   0                          -0 
+   207 Pallet_existe_def[1,1,1,3]
+                                   0                          -0 
+   208 Pallet_existe_def[1,1,1,4]
+                                   0                          -0 
+   209 Pallet_existe_def[1,1,1,5]
+                                  -1                          -0 
+   210 Pallet_existe_def[1,1,1,6]
+                                  -1                          -0 
+   211 Pallet_existe_def[1,1,2,1]
+                                   0                          -0 
+   212 Pallet_existe_def[1,1,2,2]
+                                   0                          -0 
+   213 Pallet_existe_def[1,1,2,3]
+                                   0                          -0 
+   214 Pallet_existe_def[1,1,2,4]
+                                   0                          -0 
+   215 Pallet_existe_def[1,1,2,5]
+                                  -1                          -0 
+   216 Pallet_existe_def[1,1,2,6]
+                                  -1                          -0 
+   217 Pallet_existe_def[1,2,1,1]
+                                   0                          -0 
+   218 Pallet_existe_def[1,2,1,2]
+                                   0                          -0 
+   219 Pallet_existe_def[1,2,1,3]
+                                   0                          -0 
+   220 Pallet_existe_def[1,2,1,4]
+                                   0                          -0 
+   221 Pallet_existe_def[1,2,1,5]
+                                  -1                          -0 
+   222 Pallet_existe_def[1,2,1,6]
+                                  -1                          -0 
+   223 Pallet_existe_def[1,2,2,1]
+                                   0                          -0 
+   224 Pallet_existe_def[1,2,2,2]
+                                   0                          -0 
+   225 Pallet_existe_def[1,2,2,3]
+                                   0                          -0 
+   226 Pallet_existe_def[1,2,2,4]
+                                   0                          -0 
+   227 Pallet_existe_def[1,2,2,5]
+                                  -1                          -0 
+   228 Pallet_existe_def[1,2,2,6]
+                                  -1                          -0 
+   229 Pallet_existe_def[2,1,1,1]
+                                   0                          -0 
+   230 Pallet_existe_def[2,1,1,2]
+                                   0                          -0 
+   231 Pallet_existe_def[2,1,1,3]
+                                   0                          -0 
+   232 Pallet_existe_def[2,1,1,4]
+                                   0                          -0 
+   233 Pallet_existe_def[2,1,1,5]
+                                   0                          -0 
+   234 Pallet_existe_def[2,1,1,6]
+                                   0                          -0 
+   235 Pallet_existe_def[2,1,2,1]
+                                   0                          -0 
+   236 Pallet_existe_def[2,1,2,2]
+                                   0                          -0 
+   237 Pallet_existe_def[2,1,2,3]
+                                   0                          -0 
+   238 Pallet_existe_def[2,1,2,4]
+                                   0                          -0 
+   239 Pallet_existe_def[2,1,2,5]
+                                   0                          -0 
+   240 Pallet_existe_def[2,1,2,6]
+                                   0                          -0 
+   241 Pallet_existe_def[2,2,1,1]
+                                   0                          -0 
+   242 Pallet_existe_def[2,2,1,2]
+                                   0                          -0 
+   243 Pallet_existe_def[2,2,1,3]
+                                   0                          -0 
+   244 Pallet_existe_def[2,2,1,4]
+                                   0                          -0 
+   245 Pallet_existe_def[2,2,1,5]
+                                  -1                          -0 
+   246 Pallet_existe_def[2,2,1,6]
+                                   0                          -0 
+   247 Pallet_existe_def[2,2,2,1]
+                                   0                          -0 
+   248 Pallet_existe_def[2,2,2,2]
+                                   0                          -0 
+   249 Pallet_existe_def[2,2,2,3]
+                                   0                          -0 
+   250 Pallet_existe_def[2,2,2,4]
+                                   0                          -0 
+   251 Pallet_existe_def[2,2,2,5]
+                                  -1                          -0 
+   252 Pallet_existe_def[2,2,2,6]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 posicion_caja[1,1,1,1,1]
+                    *              0             0             1 
+     2 posicion_caja[1,1,1,1,2]
+                    *              0             0             1 
+     3 posicion_caja[1,1,1,1,3]
+                    *              0             0             1 
+     4 posicion_caja[1,1,1,1,4]
+                    *              0             0             1 
+     5 posicion_caja[1,1,1,1,5]
+                    *              0             0             1 
+     6 posicion_caja[1,1,1,1,6]
+                    *              0             0             1 
+     7 posicion_caja[1,1,1,2,1]
+                    *              0             0             1 
+     8 posicion_caja[1,1,1,2,2]
+                    *              0             0             1 
+     9 posicion_caja[1,1,1,2,3]
+                    *              0             0             1 
+    10 posicion_caja[1,1,1,2,4]
+                    *              0             0             1 
+    11 posicion_caja[1,1,1,2,5]
+                    *              0             0             1 
+    12 posicion_caja[1,1,1,2,6]
+                    *              0             0             1 
+    13 posicion_caja[1,1,2,1,1]
+                    *              0             0             1 
+    14 posicion_caja[1,1,2,1,2]
+                    *              0             0             1 
+    15 posicion_caja[1,1,2,1,3]
+                    *              0             0             1 
+    16 posicion_caja[1,1,2,1,4]
+                    *              0             0             1 
+    17 posicion_caja[1,1,2,1,5]
+                    *              0             0             1 
+    18 posicion_caja[1,1,2,1,6]
+                    *              0             0             1 
+    19 posicion_caja[1,1,2,2,1]
+                    *              0             0             1 
+    20 posicion_caja[1,1,2,2,2]
+                    *              0             0             1 
+    21 posicion_caja[1,1,2,2,3]
+                    *              0             0             1 
+    22 posicion_caja[1,1,2,2,4]
+                    *              0             0             1 
+    23 posicion_caja[1,1,2,2,5]
+                    *              0             0             1 
+    24 posicion_caja[1,1,2,2,6]
+                    *              0             0             1 
+    25 posicion_caja[1,2,1,1,1]
+                    *              0             0             1 
+    26 posicion_caja[1,2,1,1,2]
+                    *              0             0             1 
+    27 posicion_caja[1,2,1,1,3]
+                    *              0             0             1 
+    28 posicion_caja[1,2,1,1,4]
+                    *              0             0             1 
+    29 posicion_caja[1,2,1,1,5]
+                    *              0             0             1 
+    30 posicion_caja[1,2,1,1,6]
+                    *              0             0             1 
+    31 posicion_caja[1,2,1,2,1]
+                    *              0             0             1 
+    32 posicion_caja[1,2,1,2,2]
+                    *              0             0             1 
+    33 posicion_caja[1,2,1,2,3]
+                    *              0             0             1 
+    34 posicion_caja[1,2,1,2,4]
+                    *              0             0             1 
+    35 posicion_caja[1,2,1,2,5]
+                    *              0             0             1 
+    36 posicion_caja[1,2,1,2,6]
+                    *              0             0             1 
+    37 posicion_caja[1,2,2,1,1]
+                    *              0             0             1 
+    38 posicion_caja[1,2,2,1,2]
+                    *              0             0             1 
+    39 posicion_caja[1,2,2,1,3]
+                    *              0             0             1 
+    40 posicion_caja[1,2,2,1,4]
+                    *              0             0             1 
+    41 posicion_caja[1,2,2,1,5]
+                    *              0             0             1 
+    42 posicion_caja[1,2,2,1,6]
+                    *              0             0             1 
+    43 posicion_caja[1,2,2,2,1]
+                    *              0             0             1 
+    44 posicion_caja[1,2,2,2,2]
+                    *              0             0             1 
+    45 posicion_caja[1,2,2,2,3]
+                    *              0             0             1 
+    46 posicion_caja[1,2,2,2,4]
+                    *              0             0             1 
+    47 posicion_caja[1,2,2,2,5]
+                    *              0             0             1 
+    48 posicion_caja[1,2,2,2,6]
+                    *              1             0             1 
+    49 posicion_caja[2,1,1,1,1]
+                    *              0             0             1 
+    50 posicion_caja[2,1,1,1,2]
+                    *              0             0             1 
+    51 posicion_caja[2,1,1,1,3]
+                    *              0             0             1 
+    52 posicion_caja[2,1,1,1,4]
+                    *              0             0             1 
+    53 posicion_caja[2,1,1,1,5]
+                    *              0             0             1 
+    54 posicion_caja[2,1,1,1,6]
+                    *              0             0             1 
+    55 posicion_caja[2,1,1,2,1]
+                    *              0             0             1 
+    56 posicion_caja[2,1,1,2,2]
+                    *              0             0             1 
+    57 posicion_caja[2,1,1,2,3]
+                    *              0             0             1 
+    58 posicion_caja[2,1,1,2,4]
+                    *              0             0             1 
+    59 posicion_caja[2,1,1,2,5]
+                    *              0             0             1 
+    60 posicion_caja[2,1,1,2,6]
+                    *              0             0             1 
+    61 posicion_caja[2,1,2,1,1]
+                    *              0             0             1 
+    62 posicion_caja[2,1,2,1,2]
+                    *              0             0             1 
+    63 posicion_caja[2,1,2,1,3]
+                    *              0             0             1 
+    64 posicion_caja[2,1,2,1,4]
+                    *              0             0             1 
+    65 posicion_caja[2,1,2,1,5]
+                    *              0             0             1 
+    66 posicion_caja[2,1,2,1,6]
+                    *              0             0             1 
+    67 posicion_caja[2,1,2,2,1]
+                    *              0             0             1 
+    68 posicion_caja[2,1,2,2,2]
+                    *              0             0             1 
+    69 posicion_caja[2,1,2,2,3]
+                    *              0             0             1 
+    70 posicion_caja[2,1,2,2,4]
+                    *              0             0             1 
+    71 posicion_caja[2,1,2,2,5]
+                    *              0             0             1 
+    72 posicion_caja[2,1,2,2,6]
+                    *              0             0             1 
+    73 posicion_caja[2,2,1,1,1]
+                    *              0             0             1 
+    74 posicion_caja[2,2,1,1,2]
+                    *              0             0             1 
+    75 posicion_caja[2,2,1,1,3]
+                    *              0             0             1 
+    76 posicion_caja[2,2,1,1,4]
+                    *              0             0             1 
+    77 posicion_caja[2,2,1,1,5]
+                    *              0             0             1 
+    78 posicion_caja[2,2,1,1,6]
+                    *              0             0             1 
+    79 posicion_caja[2,2,1,2,1]
+                    *              0             0             1 
+    80 posicion_caja[2,2,1,2,2]
+                    *              0             0             1 
+    81 posicion_caja[2,2,1,2,3]
+                    *              0             0             1 
+    82 posicion_caja[2,2,1,2,4]
+                    *              0             0             1 
+    83 posicion_caja[2,2,1,2,5]
+                    *              0             0             1 
+    84 posicion_caja[2,2,1,2,6]
+                    *              0             0             1 
+    85 posicion_caja[2,2,2,1,1]
+                    *              0             0             1 
+    86 posicion_caja[2,2,2,1,2]
+                    *              0             0             1 
+    87 posicion_caja[2,2,2,1,3]
+                    *              0             0             1 
+    88 posicion_caja[2,2,2,1,4]
+                    *              0             0             1 
+    89 posicion_caja[2,2,2,1,5]
+                    *              0             0             1 
+    90 posicion_caja[2,2,2,1,6]
+                    *              1             0             1 
+    91 posicion_caja[2,2,2,2,1]
+                    *              0             0             1 
+    92 posicion_caja[2,2,2,2,2]
+                    *              0             0             1 
+    93 posicion_caja[2,2,2,2,3]
+                    *              0             0             1 
+    94 posicion_caja[2,2,2,2,4]
+                    *              0             0             1 
+    95 posicion_caja[2,2,2,2,5]
+                    *              0             0             1 
+    96 posicion_caja[2,2,2,2,6]
+                    *              0             0             1 
+    97 posicion_caja[3,1,1,1,1]
+                    *              0             0             1 
+    98 posicion_caja[3,1,1,1,2]
+                    *              0             0             1 
+    99 posicion_caja[3,1,1,1,3]
+                    *              0             0             1 
+   100 posicion_caja[3,1,1,1,4]
+                    *              0             0             1 
+   101 posicion_caja[3,1,1,1,5]
+                    *              0             0             1 
+   102 posicion_caja[3,1,1,1,6]
+                    *              0             0             1 
+   103 posicion_caja[3,1,1,2,1]
+                    *              0             0             1 
+   104 posicion_caja[3,1,1,2,2]
+                    *              0             0             1 
+   105 posicion_caja[3,1,1,2,3]
+                    *              0             0             1 
+   106 posicion_caja[3,1,1,2,4]
+                    *              0             0             1 
+   107 posicion_caja[3,1,1,2,5]
+                    *              0             0             1 
+   108 posicion_caja[3,1,1,2,6]
+                    *              0             0             1 
+   109 posicion_caja[3,1,2,1,1]
+                    *              0             0             1 
+   110 posicion_caja[3,1,2,1,2]
+                    *              0             0             1 
+   111 posicion_caja[3,1,2,1,3]
+                    *              0             0             1 
+   112 posicion_caja[3,1,2,1,4]
+                    *              0             0             1 
+   113 posicion_caja[3,1,2,1,5]
+                    *              0             0             1 
+   114 posicion_caja[3,1,2,1,6]
+                    *              0             0             1 
+   115 posicion_caja[3,1,2,2,1]
+                    *              0             0             1 
+   116 posicion_caja[3,1,2,2,2]
+                    *              0             0             1 
+   117 posicion_caja[3,1,2,2,3]
+                    *              0             0             1 
+   118 posicion_caja[3,1,2,2,4]
+                    *              0             0             1 
+   119 posicion_caja[3,1,2,2,5]
+                    *              0             0             1 
+   120 posicion_caja[3,1,2,2,6]
+                    *              0             0             1 
+   121 posicion_caja[3,2,1,1,1]
+                    *              0             0             1 
+   122 posicion_caja[3,2,1,1,2]
+                    *              0             0             1 
+   123 posicion_caja[3,2,1,1,3]
+                    *              0             0             1 
+   124 posicion_caja[3,2,1,1,4]
+                    *              0             0             1 
+   125 posicion_caja[3,2,1,1,5]
+                    *              0             0             1 
+   126 posicion_caja[3,2,1,1,6]
+                    *              0             0             1 
+   127 posicion_caja[3,2,1,2,1]
+                    *              0             0             1 
+   128 posicion_caja[3,2,1,2,2]
+                    *              0             0             1 
+   129 posicion_caja[3,2,1,2,3]
+                    *              0             0             1 
+   130 posicion_caja[3,2,1,2,4]
+                    *              0             0             1 
+   131 posicion_caja[3,2,1,2,5]
+                    *              1             0             1 
+   132 posicion_caja[3,2,1,2,6]
+                    *              0             0             1 
+   133 posicion_caja[3,2,2,1,1]
+                    *              0             0             1 
+   134 posicion_caja[3,2,2,1,2]
+                    *              0             0             1 
+   135 posicion_caja[3,2,2,1,3]
+                    *              0             0             1 
+   136 posicion_caja[3,2,2,1,4]
+                    *              0             0             1 
+   137 posicion_caja[3,2,2,1,5]
+                    *              0             0             1 
+   138 posicion_caja[3,2,2,1,6]
+                    *              0             0             1 
+   139 posicion_caja[3,2,2,2,1]
+                    *              0             0             1 
+   140 posicion_caja[3,2,2,2,2]
+                    *              0             0             1 
+   141 posicion_caja[3,2,2,2,3]
+                    *              0             0             1 
+   142 posicion_caja[3,2,2,2,4]
+                    *              0             0             1 
+   143 posicion_caja[3,2,2,2,5]
+                    *              0             0             1 
+   144 posicion_caja[3,2,2,2,6]
+                    *              0             0             1 
+   145 posicion_caja[4,1,1,1,1]
+                    *              0             0             1 
+   146 posicion_caja[4,1,1,1,2]
+                    *              0             0             1 
+   147 posicion_caja[4,1,1,1,3]
+                    *              0             0             1 
+   148 posicion_caja[4,1,1,1,4]
+                    *              0             0             1 
+   149 posicion_caja[4,1,1,1,5]
+                    *              0             0             1 
+   150 posicion_caja[4,1,1,1,6]
+                    *              0             0             1 
+   151 posicion_caja[4,1,1,2,1]
+                    *              0             0             1 
+   152 posicion_caja[4,1,1,2,2]
+                    *              0             0             1 
+   153 posicion_caja[4,1,1,2,3]
+                    *              0             0             1 
+   154 posicion_caja[4,1,1,2,4]
+                    *              0             0             1 
+   155 posicion_caja[4,1,1,2,5]
+                    *              0             0             1 
+   156 posicion_caja[4,1,1,2,6]
+                    *              0             0             1 
+   157 posicion_caja[4,1,2,1,1]
+                    *              0             0             1 
+   158 posicion_caja[4,1,2,1,2]
+                    *              0             0             1 
+   159 posicion_caja[4,1,2,1,3]
+                    *              0             0             1 
+   160 posicion_caja[4,1,2,1,4]
+                    *              0             0             1 
+   161 posicion_caja[4,1,2,1,5]
+                    *              0             0             1 
+   162 posicion_caja[4,1,2,1,6]
+                    *              0             0             1 
+   163 posicion_caja[4,1,2,2,1]
+                    *              0             0             1 
+   164 posicion_caja[4,1,2,2,2]
+                    *              0             0             1 
+   165 posicion_caja[4,1,2,2,3]
+                    *              0             0             1 
+   166 posicion_caja[4,1,2,2,4]
+                    *              0             0             1 
+   167 posicion_caja[4,1,2,2,5]
+                    *              0             0             1 
+   168 posicion_caja[4,1,2,2,6]
+                    *              0             0             1 
+   169 posicion_caja[4,2,1,1,1]
+                    *              0             0             1 
+   170 posicion_caja[4,2,1,1,2]
+                    *              0             0             1 
+   171 posicion_caja[4,2,1,1,3]
+                    *              0             0             1 
+   172 posicion_caja[4,2,1,1,4]
+                    *              0             0             1 
+   173 posicion_caja[4,2,1,1,5]
+                    *              0             0             1 
+   174 posicion_caja[4,2,1,1,6]
+                    *              1             0             1 
+   175 posicion_caja[4,2,1,2,1]
+                    *              0             0             1 
+   176 posicion_caja[4,2,1,2,2]
+                    *              0             0             1 
+   177 posicion_caja[4,2,1,2,3]
+                    *              0             0             1 
+   178 posicion_caja[4,2,1,2,4]
+                    *              0             0             1 
+   179 posicion_caja[4,2,1,2,5]
+                    *              0             0             1 
+   180 posicion_caja[4,2,1,2,6]
+                    *              0             0             1 
+   181 posicion_caja[4,2,2,1,1]
+                    *              0             0             1 
+   182 posicion_caja[4,2,2,1,2]
+                    *              0             0             1 
+   183 posicion_caja[4,2,2,1,3]
+                    *              0             0             1 
+   184 posicion_caja[4,2,2,1,4]
+                    *              0             0             1 
+   185 posicion_caja[4,2,2,1,5]
+                    *              0             0             1 
+   186 posicion_caja[4,2,2,1,6]
+                    *              0             0             1 
+   187 posicion_caja[4,2,2,2,1]
+                    *              0             0             1 
+   188 posicion_caja[4,2,2,2,2]
+                    *              0             0             1 
+   189 posicion_caja[4,2,2,2,3]
+                    *              0             0             1 
+   190 posicion_caja[4,2,2,2,4]
+                    *              0             0             1 
+   191 posicion_caja[4,2,2,2,5]
+                    *              0             0             1 
+   192 posicion_caja[4,2,2,2,6]
+                    *              0             0             1 
+   193 posicion_caja[5,1,1,1,1]
+                    *              0             0             1 
+   194 posicion_caja[5,1,1,1,2]
+                    *              0             0             1 
+   195 posicion_caja[5,1,1,1,3]
+                    *              0             0             1 
+   196 posicion_caja[5,1,1,1,4]
+                    *              0             0             1 
+   197 posicion_caja[5,1,1,1,5]
+                    *              0             0             1 
+   198 posicion_caja[5,1,1,1,6]
+                    *              0             0             1 
+   199 posicion_caja[5,1,1,2,1]
+                    *              0             0             1 
+   200 posicion_caja[5,1,1,2,2]
+                    *              0             0             1 
+   201 posicion_caja[5,1,1,2,3]
+                    *              0             0             1 
+   202 posicion_caja[5,1,1,2,4]
+                    *              0             0             1 
+   203 posicion_caja[5,1,1,2,5]
+                    *              0             0             1 
+   204 posicion_caja[5,1,1,2,6]
+                    *              0             0             1 
+   205 posicion_caja[5,1,2,1,1]
+                    *              0             0             1 
+   206 posicion_caja[5,1,2,1,2]
+                    *              0             0             1 
+   207 posicion_caja[5,1,2,1,3]
+                    *              0             0             1 
+   208 posicion_caja[5,1,2,1,4]
+                    *              0             0             1 
+   209 posicion_caja[5,1,2,1,5]
+                    *              0             0             1 
+   210 posicion_caja[5,1,2,1,6]
+                    *              0             0             1 
+   211 posicion_caja[5,1,2,2,1]
+                    *              0             0             1 
+   212 posicion_caja[5,1,2,2,2]
+                    *              0             0             1 
+   213 posicion_caja[5,1,2,2,3]
+                    *              0             0             1 
+   214 posicion_caja[5,1,2,2,4]
+                    *              0             0             1 
+   215 posicion_caja[5,1,2,2,5]
+                    *              0             0             1 
+   216 posicion_caja[5,1,2,2,6]
+                    *              0             0             1 
+   217 posicion_caja[5,2,1,1,1]
+                    *              0             0             1 
+   218 posicion_caja[5,2,1,1,2]
+                    *              0             0             1 
+   219 posicion_caja[5,2,1,1,3]
+                    *              0             0             1 
+   220 posicion_caja[5,2,1,1,4]
+                    *              0             0             1 
+   221 posicion_caja[5,2,1,1,5]
+                    *              0             0             1 
+   222 posicion_caja[5,2,1,1,6]
+                    *              0             0             1 
+   223 posicion_caja[5,2,1,2,1]
+                    *              0             0             1 
+   224 posicion_caja[5,2,1,2,2]
+                    *              0             0             1 
+   225 posicion_caja[5,2,1,2,3]
+                    *              0             0             1 
+   226 posicion_caja[5,2,1,2,4]
+                    *              0             0             1 
+   227 posicion_caja[5,2,1,2,5]
+                    *              0             0             1 
+   228 posicion_caja[5,2,1,2,6]
+                    *              1             0             1 
+   229 posicion_caja[5,2,2,1,1]
+                    *              0             0             1 
+   230 posicion_caja[5,2,2,1,2]
+                    *              0             0             1 
+   231 posicion_caja[5,2,2,1,3]
+                    *              0             0             1 
+   232 posicion_caja[5,2,2,1,4]
+                    *              0             0             1 
+   233 posicion_caja[5,2,2,1,5]
+                    *              0             0             1 
+   234 posicion_caja[5,2,2,1,6]
+                    *              0             0             1 
+   235 posicion_caja[5,2,2,2,1]
+                    *              0             0             1 
+   236 posicion_caja[5,2,2,2,2]
+                    *              0             0             1 
+   237 posicion_caja[5,2,2,2,3]
+                    *              0             0             1 
+   238 posicion_caja[5,2,2,2,4]
+                    *              0             0             1 
+   239 posicion_caja[5,2,2,2,5]
+                    *              0             0             1 
+   240 posicion_caja[5,2,2,2,6]
+                    *              0             0             1 
+   241 posicion_caja[6,1,1,1,1]
+                    *              0             0             1 
+   242 posicion_caja[6,1,1,1,2]
+                    *              0             0             1 
+   243 posicion_caja[6,1,1,1,3]
+                    *              0             0             1 
+   244 posicion_caja[6,1,1,1,4]
+                    *              0             0             1 
+   245 posicion_caja[6,1,1,1,5]
+                    *              0             0             1 
+   246 posicion_caja[6,1,1,1,6]
+                    *              0             0             1 
+   247 posicion_caja[6,1,1,2,1]
+                    *              0             0             1 
+   248 posicion_caja[6,1,1,2,2]
+                    *              0             0             1 
+   249 posicion_caja[6,1,1,2,3]
+                    *              0             0             1 
+   250 posicion_caja[6,1,1,2,4]
+                    *              0             0             1 
+   251 posicion_caja[6,1,1,2,5]
+                    *              0             0             1 
+   252 posicion_caja[6,1,1,2,6]
+                    *              0             0             1 
+   253 posicion_caja[6,1,2,1,1]
+                    *              0             0             1 
+   254 posicion_caja[6,1,2,1,2]
+                    *              0             0             1 
+   255 posicion_caja[6,1,2,1,3]
+                    *              0             0             1 
+   256 posicion_caja[6,1,2,1,4]
+                    *              0             0             1 
+   257 posicion_caja[6,1,2,1,5]
+                    *              0             0             1 
+   258 posicion_caja[6,1,2,1,6]
+                    *              0             0             1 
+   259 posicion_caja[6,1,2,2,1]
+                    *              0             0             1 
+   260 posicion_caja[6,1,2,2,2]
+                    *              0             0             1 
+   261 posicion_caja[6,1,2,2,3]
+                    *              0             0             1 
+   262 posicion_caja[6,1,2,2,4]
+                    *              0             0             1 
+   263 posicion_caja[6,1,2,2,5]
+                    *              0             0             1 
+   264 posicion_caja[6,1,2,2,6]
+                    *              0             0             1 
+   265 posicion_caja[6,2,1,1,1]
+                    *              0             0             1 
+   266 posicion_caja[6,2,1,1,2]
+                    *              0             0             1 
+   267 posicion_caja[6,2,1,1,3]
+                    *              0             0             1 
+   268 posicion_caja[6,2,1,1,4]
+                    *              0             0             1 
+   269 posicion_caja[6,2,1,1,5]
+                    *              1             0             1 
+   270 posicion_caja[6,2,1,1,6]
+                    *              0             0             1 
+   271 posicion_caja[6,2,1,2,1]
+                    *              0             0             1 
+   272 posicion_caja[6,2,1,2,2]
+                    *              0             0             1 
+   273 posicion_caja[6,2,1,2,3]
+                    *              0             0             1 
+   274 posicion_caja[6,2,1,2,4]
+                    *              0             0             1 
+   275 posicion_caja[6,2,1,2,5]
+                    *              0             0             1 
+   276 posicion_caja[6,2,1,2,6]
+                    *              0             0             1 
+   277 posicion_caja[6,2,2,1,1]
+                    *              0             0             1 
+   278 posicion_caja[6,2,2,1,2]
+                    *              0             0             1 
+   279 posicion_caja[6,2,2,1,3]
+                    *              0             0             1 
+   280 posicion_caja[6,2,2,1,4]
+                    *              0             0             1 
+   281 posicion_caja[6,2,2,1,5]
+                    *              0             0             1 
+   282 posicion_caja[6,2,2,1,6]
+                    *              0             0             1 
+   283 posicion_caja[6,2,2,2,1]
+                    *              0             0             1 
+   284 posicion_caja[6,2,2,2,2]
+                    *              0             0             1 
+   285 posicion_caja[6,2,2,2,3]
+                    *              0             0             1 
+   286 posicion_caja[6,2,2,2,4]
+                    *              0             0             1 
+   287 posicion_caja[6,2,2,2,5]
+                    *              0             0             1 
+   288 posicion_caja[6,2,2,2,6]
+                    *              0             0             1 
+   289 coste_celda[1,1,1,1]
+                                   0             0               
+   290 coste_celda[1,1,1,2]
+                                   0             0               
+   291 coste_celda[1,1,1,3]
+                                   0             0               
+   292 coste_celda[1,1,1,4]
+                                   0             0               
+   293 coste_celda[1,1,1,5]
+                                   0             0               
+   294 coste_celda[1,1,1,6]
+                                   0             0               
+   295 coste_celda[1,1,2,1]
+                                   0             0               
+   296 coste_celda[1,1,2,2]
+                                   0             0               
+   297 coste_celda[1,1,2,3]
+                                   0             0               
+   298 coste_celda[1,1,2,4]
+                                   0             0               
+   299 coste_celda[1,1,2,5]
+                                   0             0               
+   300 coste_celda[1,1,2,6]
+                                   0             0               
+   301 coste_celda[1,2,1,1]
+                                   0             0               
+   302 coste_celda[1,2,1,2]
+                                   0             0               
+   303 coste_celda[1,2,1,3]
+                                   0             0               
+   304 coste_celda[1,2,1,4]
+                                   0             0               
+   305 coste_celda[1,2,1,5]
+                                   0             0               
+   306 coste_celda[1,2,1,6]
+                                   0             0               
+   307 coste_celda[1,2,2,1]
+                                   0             0               
+   308 coste_celda[1,2,2,2]
+                                   0             0               
+   309 coste_celda[1,2,2,3]
+                                   0             0               
+   310 coste_celda[1,2,2,4]
+                                   0             0               
+   311 coste_celda[1,2,2,5]
+                                   0             0               
+   312 coste_celda[1,2,2,6]
+                                   0             0               
+   313 coste_celda[2,1,1,1]
+                                   0             0               
+   314 coste_celda[2,1,1,2]
+                                   0             0               
+   315 coste_celda[2,1,1,3]
+                                   0             0               
+   316 coste_celda[2,1,1,4]
+                                   0             0               
+   317 coste_celda[2,1,1,5]
+                                   0             0               
+   318 coste_celda[2,1,1,6]
+                                   0             0               
+   319 coste_celda[2,1,2,1]
+                                   0             0               
+   320 coste_celda[2,1,2,2]
+                                   0             0               
+   321 coste_celda[2,1,2,3]
+                                   0             0               
+   322 coste_celda[2,1,2,4]
+                                   0             0               
+   323 coste_celda[2,1,2,5]
+                                   0             0               
+   324 coste_celda[2,1,2,6]
+                                   0             0               
+   325 coste_celda[2,2,1,1]
+                                   0             0               
+   326 coste_celda[2,2,1,2]
+                                   0             0               
+   327 coste_celda[2,2,1,3]
+                                   0             0               
+   328 coste_celda[2,2,1,4]
+                                   0             0               
+   329 coste_celda[2,2,1,5]
+                                   0             0               
+   330 coste_celda[2,2,1,6]
+                                   0             0               
+   331 coste_celda[2,2,2,1]
+                                   0             0               
+   332 coste_celda[2,2,2,2]
+                                   0             0               
+   333 coste_celda[2,2,2,3]
+                                   0             0               
+   334 coste_celda[2,2,2,4]
+                                   0             0               
+   335 coste_celda[2,2,2,5]
+                                   0             0               
+   336 coste_celda[2,2,2,6]
+                                   0             0               
+   337 existe_pallet[1]
+                    *              0             0             1 
+   338 existe_pallet[2]
+                    *              0             0             1 
+   339 existe_pallet[3]
+                    *              0             0             1 
+   340 existe_pallet[4]
+                    *              0             0             1 
+   341 existe_pallet[5]
+                    *              1             0             1 
+   342 existe_pallet[6]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
