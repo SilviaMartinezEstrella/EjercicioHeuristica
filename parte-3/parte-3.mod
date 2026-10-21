@@ -4,7 +4,6 @@ param ALTURA;
 param NUM_CAJAS;
 param M;
 
-
 /*SETS*/
 set CAJAS:={1..NUM_CAJAS};
 set FILAS:={1..LADO};
@@ -16,11 +15,15 @@ param PRIORIDADES {k in CAJAS};
 param PESOS {w in CAJAS};
 param AGUANTES {y in CAJAS};
 
+param M2 := (LADO-1) * (M-1); # M2 es un valor suficientemente grande para garantizar que la restricción de coste_celda_def se cumpla correctamente.
+
 /*Variables de decision*/
 var posicion_caja {k in CAJAS, i in FILAS, j in COLUMNAS, m in ALTURAS} binary;
 
+var coste_celda {i in FILAS, j in COLUMNAS, m in ALTURAS} >= 0;
+
 /*F. Obj*/
-minimize coste_medio: (sum{i in FILAS}sum{j in COLUMNAS}sum{i_prima in (i+1)..LADO}sum{k in CAJAS}sum{m in ALTURAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k])/NUM_CAJAS;
+minimize coste_medio: (sum{i in FILAS, j in COLUMNAS, m in ALTURAS} coste_celda[i,j,m]) / NUM_CAJAS;
 
 /*Restriciones*/
 /*Las cajas se deben disponer de un único plano sobre el pallet (no repeticiones)*/
@@ -38,14 +41,16 @@ s.t. Peso_maximo {i in FILAS, j in COLUMNAS, m in ALTURAS}:
     sum{m_prima in (m+1)..ALTURA} sum{k in CAJAS} posicion_caja[k,i,j,m_prima]*PESOS[k] <= sum{k in CAJAS} posicion_caja[k,i,j,m]*AGUANTES[k]
 ;
 
-
 /* Una vez haya una posición vacía, las posiciones de las filas siguientes también estarán vacías con prioridad infinita */
 s.t. Prioridad_infinito {i in 1..(LADO-1), j in COLUMNAS, m in ALTURAS}:
     sum{k in CAJAS} posicion_caja[k,i,j,m] <= sum{k in CAJAS} posicion_caja[k,i+1,j,m]
 ;
 
-
 /*No pueden haber de cajas sobre una posición vacía */
 s.t. Cajas_sobre_vacio {i in FILAS, j in COLUMNAS, m in 1..(ALTURA-1)}:
     sum{k in CAJAS} posicion_caja[k,i,j,m+1] <= sum{k in CAJAS} posicion_caja[k,i,j,m]
 ;
+
+s.t. Coste_celda_def {i in 1..(LADO-1), j in COLUMNAS, m in ALTURAS}:
+    sum{i_prima in (i+1)..LADO} sum{k in CAJAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k] - M2*(1-sum{k in CAJAS} posicion_caja[k,i,j,m]) >= coste_celda[i,j,m]
+    ;
