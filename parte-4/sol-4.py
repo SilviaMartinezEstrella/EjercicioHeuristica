@@ -33,7 +33,7 @@ with open(archivo_salida, "w", encoding="utf-8") as f:
 
     M = 0
     for x in Prioridades:
-        if int(x) > M:
+        if int(x) >= M:
             M = int(x) + 1
     f.write("param M := " + str(M) + ";\n\n")
         
