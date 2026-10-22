@@ -47,11 +47,12 @@ s.t. Prioridad_infinito {i in 1..(LADO-1), j in COLUMNAS, m in ALTURAS}:
     sum{k in CAJAS} posicion_caja[k,i,j,m] <= sum{k in CAJAS} posicion_caja[k,i+1,j,m]
 ;
 
-/*No pueden haber de cajas sobre una posición vacía */
+/*No pueden colocarse cajas sobre una posición vacía */
 s.t. Cajas_sobre_vacio {i in FILAS, j in COLUMNAS, m in 1..(ALTURA-1)}:
     sum{k in CAJAS} posicion_caja[k,i,j,m+1] <= sum{k in CAJAS} posicion_caja[k,i,j,m]
 ;
 
+/** Este es el coste que tiene cada celda, siendo el coste el sumatorio de las prioridades de las cajas en las filas anteriores. Con M2 nos aseguramos de que la restricción se cumpla para aquellas celdas que no tienen cajas */
 s.t. Coste_celda_def {i in 1..(LADO-1), j in COLUMNAS, m in ALTURAS}:
     sum{i_prima in (i+1)..LADO} sum{k in CAJAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k] - M2*(1-sum{k in CAJAS} posicion_caja[k,i,j,m]) <= coste_celda[i,j,m]
     ;
