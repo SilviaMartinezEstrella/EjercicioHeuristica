@@ -1,0 +1,42 @@
+data;
+
+param LADO :=  2;
+
+param ALTURA :=  4;
+
+param NUM_CAJAS := 8;
+
+param M := 16;
+
+param PRIORIDADES := 
+1		12
+2		5
+3		3
+4		15
+5		8
+6		1
+7		11
+8		6;
+
+param PESOS := 
+1		4
+2		13
+3		9
+4		2
+5		16
+6		7
+7		10
+8		14;
+
+param AGUANTES := 
+1		7
+2		2
+3		15
+4		4
+5		11
+6		6
+7		1
+8		13;
+
+
+end;
