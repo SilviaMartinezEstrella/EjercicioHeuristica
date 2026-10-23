@@ -1,95 +1,95 @@
 Problem:    parte
 Rows:       43
 Columns:    144 (144 integer, 144 binary)
-Non-zeros:  756
-Status:     INTEGER OPTIMAL
-Objective:  coste_medio = 1.166666667 (MINimum)
+Non-zeros:  792
+Status:     INTEGER EMPTY
+Objective:  coste_medio = 0 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 coste_medio           1.16667                             
+     1 coste_medio                 0                             
      2 No_repeticiones[1]
-                                   1             1             = 
+                                   0             1             = 
      3 No_repeticiones[2]
-                                   1             1             = 
+                                   0             1             = 
      4 No_repeticiones[3]
-                                   1             1             = 
+                                   0             1             = 
      5 No_repeticiones[4]
-                                   1             1             = 
+                                   0             1             = 
      6 No_repeticiones[5]
-                                   1             1             = 
+                                   0             1             = 
      7 No_repeticiones[6]
-                                   1             1             = 
+                                   0             1             = 
      8 No_repeticiones[7]
-                                   1             1             = 
+                                   0             1             = 
      9 No_repeticiones[8]
-                                   1             1             = 
+                                   0             1             = 
     10 No_repeticiones[9]
-                                   1             1             = 
+                                   0             1             = 
     11 No_repeticiones[10]
-                                   1             1             = 
+                                   0             1             = 
     12 No_repeticiones[11]
-                                   1             1             = 
+                                   0             1             = 
     13 No_repeticiones[12]
-                                   1             1             = 
+                                   0             1             = 
     14 Respetar_prioridades[1,1,1]
-                                  -4                          -0 
+                                   0                          -0 
     15 Respetar_prioridades[1,1,2]
-                                  -7                          -0 
+                                   0                          -0 
     16 Respetar_prioridades[1,1,3]
-                                  -2                          -0 
+                                   0                          -0 
     17 Respetar_prioridades[1,2,1]
-                                  -7                          -0 
+                                   0                          -0 
     18 Respetar_prioridades[1,2,2]
-                                  -7                          -0 
+                                   0                          -0 
     19 Respetar_prioridades[1,2,3]
-                                  -7                          -0 
+                                   0                          -0 
     20 Pallet_lleno[1,1,1]
-                                   1             1             = 
+                                   0             1             = 
     21 Pallet_lleno[1,1,2]
-                                   1             1             = 
+                                   0             1             = 
     22 Pallet_lleno[1,1,3]
-                                   1             1             = 
+                                   0             1             = 
     23 Pallet_lleno[1,2,1]
-                                   1             1             = 
+                                   0             1             = 
     24 Pallet_lleno[1,2,2]
-                                   1             1             = 
+                                   0             1             = 
     25 Pallet_lleno[1,2,3]
-                                   1             1             = 
+                                   0             1             = 
     26 Pallet_lleno[2,1,1]
-                                   1             1             = 
+                                   0             1             = 
     27 Pallet_lleno[2,1,2]
-                                   1             1             = 
+                                   0             1             = 
     28 Pallet_lleno[2,1,3]
-                                   1             1             = 
+                                   0             1             = 
     29 Pallet_lleno[2,2,1]
-                                   1             1             = 
+                                   0             1             = 
     30 Pallet_lleno[2,2,2]
-                                   1             1             = 
+                                   0             1             = 
     31 Pallet_lleno[2,2,3]
-                                   1             1             = 
+                                   0             1             = 
     32 peso_maximo[1,1,1]
-                                  -1                          -0 
+                                   0                          -0 
     33 peso_maximo[1,1,2]
-                                 -12                          -0 
+                                   0                          -0 
     34 peso_maximo[1,1,3]
                                    0                          -0 
     35 peso_maximo[1,2,1]
-                                  -1                          -0 
+                                   0                          -0 
     36 peso_maximo[1,2,2]
-                                  -1                          -0 
+                                   0                          -0 
     37 peso_maximo[1,2,3]
-                                  -2                          -0 
+                                   0                          -0 
     38 peso_maximo[2,1,1]
-                                  -5                          -0 
+                                   0                          -0 
     39 peso_maximo[2,1,2]
-                                  -8                          -0 
+                                   0                          -0 
     40 peso_maximo[2,1,3]
                                    0                          -0 
     41 peso_maximo[2,2,1]
-                                  -9                          -0 
+                                   0                          -0 
     42 peso_maximo[2,2,2]
-                                  -8                          -0 
+                                   0                          -0 
     43 peso_maximo[2,2,3]
                                    0                          -0 
 
@@ -97,145 +97,145 @@ Objective:  coste_medio = 1.166666667 (MINimum)
 ------ ------------    ------------- ------------- -------------
      1 posicion_caja[1,2,1,1]
                     *              0             0             1 
-     2 posicion_caja[1,2,1,2]
+     2 posicion_caja[2,2,1,1]
                     *              0             0             1 
-     3 posicion_caja[1,2,1,3]
-                    *              1             0             1 
-     4 posicion_caja[2,2,1,1]
+     3 posicion_caja[3,2,1,1]
                     *              0             0             1 
-     5 posicion_caja[2,2,1,2]
+     4 posicion_caja[4,2,1,1]
                     *              0             0             1 
-     6 posicion_caja[2,2,1,3]
+     5 posicion_caja[5,2,1,1]
                     *              0             0             1 
-     7 posicion_caja[3,2,1,1]
+     6 posicion_caja[6,2,1,1]
                     *              0             0             1 
-     8 posicion_caja[3,2,1,2]
+     7 posicion_caja[7,2,1,1]
                     *              0             0             1 
-     9 posicion_caja[3,2,1,3]
+     8 posicion_caja[8,2,1,1]
                     *              0             0             1 
-    10 posicion_caja[4,2,1,1]
+     9 posicion_caja[9,2,1,1]
                     *              0             0             1 
-    11 posicion_caja[4,2,1,2]
-                    *              1             0             1 
-    12 posicion_caja[4,2,1,3]
+    10 posicion_caja[10,2,1,1]
                     *              0             0             1 
-    13 posicion_caja[5,2,1,1]
+    11 posicion_caja[11,2,1,1]
                     *              0             0             1 
-    14 posicion_caja[5,2,1,2]
+    12 posicion_caja[12,2,1,1]
                     *              0             0             1 
-    15 posicion_caja[5,2,1,3]
+    13 posicion_caja[1,2,1,2]
                     *              0             0             1 
-    16 posicion_caja[6,2,1,1]
+    14 posicion_caja[2,2,1,2]
                     *              0             0             1 
-    17 posicion_caja[6,2,1,2]
+    15 posicion_caja[3,2,1,2]
                     *              0             0             1 
-    18 posicion_caja[6,2,1,3]
+    16 posicion_caja[4,2,1,2]
                     *              0             0             1 
-    19 posicion_caja[7,2,1,1]
+    17 posicion_caja[5,2,1,2]
                     *              0             0             1 
-    20 posicion_caja[7,2,1,2]
+    18 posicion_caja[6,2,1,2]
                     *              0             0             1 
-    21 posicion_caja[7,2,1,3]
+    19 posicion_caja[7,2,1,2]
                     *              0             0             1 
-    22 posicion_caja[8,2,1,1]
+    20 posicion_caja[8,2,1,2]
                     *              0             0             1 
-    23 posicion_caja[8,2,1,2]
+    21 posicion_caja[9,2,1,2]
                     *              0             0             1 
-    24 posicion_caja[8,2,1,3]
+    22 posicion_caja[10,2,1,2]
                     *              0             0             1 
-    25 posicion_caja[9,2,1,1]
-                    *              1             0             1 
-    26 posicion_caja[9,2,1,2]
+    23 posicion_caja[11,2,1,2]
                     *              0             0             1 
-    27 posicion_caja[9,2,1,3]
+    24 posicion_caja[12,2,1,2]
                     *              0             0             1 
-    28 posicion_caja[10,2,1,1]
+    25 posicion_caja[1,2,1,3]
                     *              0             0             1 
-    29 posicion_caja[10,2,1,2]
+    26 posicion_caja[2,2,1,3]
                     *              0             0             1 
-    30 posicion_caja[10,2,1,3]
+    27 posicion_caja[3,2,1,3]
                     *              0             0             1 
-    31 posicion_caja[11,2,1,1]
+    28 posicion_caja[4,2,1,3]
                     *              0             0             1 
-    32 posicion_caja[11,2,1,2]
+    29 posicion_caja[5,2,1,3]
                     *              0             0             1 
-    33 posicion_caja[11,2,1,3]
+    30 posicion_caja[6,2,1,3]
                     *              0             0             1 
-    34 posicion_caja[12,2,1,1]
+    31 posicion_caja[7,2,1,3]
                     *              0             0             1 
-    35 posicion_caja[12,2,1,2]
+    32 posicion_caja[8,2,1,3]
+                    *              0             0             1 
+    33 posicion_caja[9,2,1,3]
+                    *              0             0             1 
+    34 posicion_caja[10,2,1,3]
+                    *              0             0             1 
+    35 posicion_caja[11,2,1,3]
                     *              0             0             1 
     36 posicion_caja[12,2,1,3]
                     *              0             0             1 
     37 posicion_caja[1,2,2,1]
                     *              0             0             1 
-    38 posicion_caja[1,2,2,2]
+    38 posicion_caja[2,2,2,1]
                     *              0             0             1 
-    39 posicion_caja[1,2,2,3]
+    39 posicion_caja[3,2,2,1]
                     *              0             0             1 
-    40 posicion_caja[2,2,2,1]
+    40 posicion_caja[4,2,2,1]
                     *              0             0             1 
-    41 posicion_caja[2,2,2,2]
+    41 posicion_caja[5,2,2,1]
                     *              0             0             1 
-    42 posicion_caja[2,2,2,3]
-                    *              1             0             1 
-    43 posicion_caja[3,2,2,1]
+    42 posicion_caja[6,2,2,1]
                     *              0             0             1 
-    44 posicion_caja[3,2,2,2]
+    43 posicion_caja[7,2,2,1]
                     *              0             0             1 
-    45 posicion_caja[3,2,2,3]
+    44 posicion_caja[8,2,2,1]
                     *              0             0             1 
-    46 posicion_caja[4,2,2,1]
+    45 posicion_caja[9,2,2,1]
                     *              0             0             1 
-    47 posicion_caja[4,2,2,2]
+    46 posicion_caja[10,2,2,1]
                     *              0             0             1 
-    48 posicion_caja[4,2,2,3]
+    47 posicion_caja[11,2,2,1]
                     *              0             0             1 
-    49 posicion_caja[5,2,2,1]
+    48 posicion_caja[12,2,2,1]
                     *              0             0             1 
-    50 posicion_caja[5,2,2,2]
+    49 posicion_caja[1,2,2,2]
                     *              0             0             1 
-    51 posicion_caja[5,2,2,3]
+    50 posicion_caja[2,2,2,2]
                     *              0             0             1 
-    52 posicion_caja[6,2,2,1]
+    51 posicion_caja[3,2,2,2]
                     *              0             0             1 
-    53 posicion_caja[6,2,2,2]
+    52 posicion_caja[4,2,2,2]
                     *              0             0             1 
-    54 posicion_caja[6,2,2,3]
+    53 posicion_caja[5,2,2,2]
                     *              0             0             1 
-    55 posicion_caja[7,2,2,1]
+    54 posicion_caja[6,2,2,2]
                     *              0             0             1 
-    56 posicion_caja[7,2,2,2]
+    55 posicion_caja[7,2,2,2]
                     *              0             0             1 
-    57 posicion_caja[7,2,2,3]
+    56 posicion_caja[8,2,2,2]
                     *              0             0             1 
-    58 posicion_caja[8,2,2,1]
+    57 posicion_caja[9,2,2,2]
                     *              0             0             1 
-    59 posicion_caja[8,2,2,2]
+    58 posicion_caja[10,2,2,2]
                     *              0             0             1 
-    60 posicion_caja[8,2,2,3]
+    59 posicion_caja[11,2,2,2]
                     *              0             0             1 
-    61 posicion_caja[9,2,2,1]
+    60 posicion_caja[12,2,2,2]
                     *              0             0             1 
-    62 posicion_caja[9,2,2,2]
+    61 posicion_caja[1,2,2,3]
                     *              0             0             1 
-    63 posicion_caja[9,2,2,3]
+    62 posicion_caja[2,2,2,3]
                     *              0             0             1 
-    64 posicion_caja[10,2,2,1]
+    63 posicion_caja[3,2,2,3]
                     *              0             0             1 
-    65 posicion_caja[10,2,2,2]
-                    *              1             0             1 
-    66 posicion_caja[10,2,2,3]
+    64 posicion_caja[4,2,2,3]
                     *              0             0             1 
-    67 posicion_caja[11,2,2,1]
-                    *              1             0             1 
-    68 posicion_caja[11,2,2,2]
+    65 posicion_caja[5,2,2,3]
                     *              0             0             1 
-    69 posicion_caja[11,2,2,3]
+    66 posicion_caja[6,2,2,3]
                     *              0             0             1 
-    70 posicion_caja[12,2,2,1]
+    67 posicion_caja[7,2,2,3]
                     *              0             0             1 
-    71 posicion_caja[12,2,2,2]
+    68 posicion_caja[8,2,2,3]
+                    *              0             0             1 
+    69 posicion_caja[9,2,2,3]
+                    *              0             0             1 
+    70 posicion_caja[10,2,2,3]
+                    *              0             0             1 
+    71 posicion_caja[11,2,2,3]
                     *              0             0             1 
     72 posicion_caja[12,2,2,3]
                     *              0             0             1 
@@ -268,7 +268,7 @@ Objective:  coste_medio = 1.166666667 (MINimum)
     86 posicion_caja[3,1,1,2]
                     *              0             0             1 
     87 posicion_caja[3,1,1,3]
-                    *              1             0             1 
+                    *              0             0             1 
     88 posicion_caja[3,1,2,1]
                     *              0             0             1 
     89 posicion_caja[3,1,2,2]
@@ -296,13 +296,13 @@ Objective:  coste_medio = 1.166666667 (MINimum)
    100 posicion_caja[5,1,2,1]
                     *              0             0             1 
    101 posicion_caja[5,1,2,2]
-                    *              1             0             1 
+                    *              0             0             1 
    102 posicion_caja[5,1,2,3]
                     *              0             0             1 
    103 posicion_caja[6,1,1,1]
                     *              0             0             1 
    104 posicion_caja[6,1,1,2]
-                    *              1             0             1 
+                    *              0             0             1 
    105 posicion_caja[6,1,1,3]
                     *              0             0             1 
    106 posicion_caja[6,1,2,1]
@@ -312,7 +312,7 @@ Objective:  coste_medio = 1.166666667 (MINimum)
    108 posicion_caja[6,1,2,3]
                     *              0             0             1 
    109 posicion_caja[7,1,1,1]
-                    *              1             0             1 
+                    *              0             0             1 
    110 posicion_caja[7,1,1,2]
                     *              0             0             1 
    111 posicion_caja[7,1,1,3]
@@ -334,7 +334,7 @@ Objective:  coste_medio = 1.166666667 (MINimum)
    119 posicion_caja[8,1,2,2]
                     *              0             0             1 
    120 posicion_caja[8,1,2,3]
-                    *              1             0             1 
+                    *              0             0             1 
    121 posicion_caja[9,1,1,1]
                     *              0             0             1 
    122 posicion_caja[9,1,1,2]
@@ -378,7 +378,7 @@ Objective:  coste_medio = 1.166666667 (MINimum)
    141 posicion_caja[12,1,1,3]
                     *              0             0             1 
    142 posicion_caja[12,1,2,1]
-                    *              1             0             1 
+                    *              0             0             1 
    143 posicion_caja[12,1,2,2]
                     *              0             0             1 
    144 posicion_caja[12,1,2,3]
@@ -390,8 +390,8 @@ KKT.PE: max.abs.err = 0.00e+00 on row 0
         max.rel.err = 0.00e+00 on row 0
         High quality
 
-KKT.PB: max.abs.err = 0.00e+00 on row 0
-        max.rel.err = 0.00e+00 on row 0
-        High quality
+KKT.PB: max.abs.err = 1.00e+00 on row 2
+        max.rel.err = 5.00e-01 on row 2
+        SOLUTION IS INFEASIBLE
 
 End of output
