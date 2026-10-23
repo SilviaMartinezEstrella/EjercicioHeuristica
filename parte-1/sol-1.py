@@ -16,7 +16,7 @@ Prioridades = lineas[1].split()
 with open(archivo_salida, "w", encoding="utf-8") as f:
     f.write("data;\n\n")
 
-    f.write("param LADO := " + " ".join(Lado) + ";\n\n")
+    f.write("param LADO := " + " " + Lado + ";\n\n")
 
     f.write("param PRIORIDADES := "  + "\n")
     k = 1

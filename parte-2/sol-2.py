@@ -20,9 +20,9 @@ with open(archivo_salida, "w", encoding="utf-8") as f:
 
     for i in range (len(Medidas)):
         if i==0:
-            f.write("param LADO := " + " ".join(Medidas[i]) + ";\n\n")
+            f.write("param LADO := " + " "+ Medidas[i] + ";\n\n")
         else:
-            f.write("param ALTURA := " + " ".join(Medidas[i]) + ";\n\n")
+            f.write("param ALTURA := " + " " + Medidas[i] + ";\n\n")
         
 
     f.write("param PRIORIDADES := "  + "\n")
