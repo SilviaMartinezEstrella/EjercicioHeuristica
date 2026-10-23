@@ -19,7 +19,7 @@ param AGUANTES {y in CAJAS};
 var posicion_caja {k in CAJAS, i in FILAS, j in COLUMNAS, m in ALTURAS} binary;
 
 /*F. Obj*/
-minimize coste_medio: (sum{i in 1..(LADO-1)}sum{j in COLUMNAS}sum{i_prima in (i+1)..LADO}sum{k in CAJAS}sum{m in ALTURAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k])/NUM_CAJAS;
+minimize coste_medio: (sum{i in 1..(LADO-1)}sum{j in COLUMNAS}sum{m in ALTURAS}sum{i_prima in (i+1)..LADO}sum{k in CAJAS} posicion_caja[k,i_prima,j,m]*PRIORIDADES[k])/NUM_CAJAS;
 
 /*Restriciones*/
 /*Las cajas se deben disponer de un único plano sobre el pallet (no repeticiones)*/
